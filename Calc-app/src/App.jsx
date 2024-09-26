@@ -16,13 +16,13 @@ function App() {
           <button className='top-row-btn'>sin</button>
           <button className='top-row-btn'>deg</button>
           <button className='grey-btn'>Ac</button>
-          <button className='grey-btn'><img src='C:\Users\henko\Desktop\Calculator\Calculator-app\public\backspace.png'/></button>
-          <button>/</button>
-          <button>*</button>
+          <button className='backspace-btn'><img src="public\backspace.png"/></button>
+          <button className='symbol-btn'>/</button>
+          <button className='symbol-btn'>*</button>
           <button>7</button>
           <button>8</button>
           <button>9</button>
-          <button>-</button>
+          <button className='symbol-btn'>-</button>
           <button>4</button>
           <button>5</button>
           <button>6</button>

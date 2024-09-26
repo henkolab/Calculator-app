@@ -2,7 +2,7 @@
   position: relative;
   left: 700px;
   background-color: rgba(0, 0, 0, 0.94);
-  background-image: radial-gradient(at top right, rgb(0, 139, 245) 1%,rgba(0, 0, 0, 0) 15%);
+  background-image: linear-gradient(90deg, rgb(0, 139, 245) 1%,rgba(0, 0, 0, 0) 15%);
   padding-top: 6rem;
   padding-left:30px;
   padding-bottom: 30px;
@@ -43,10 +43,16 @@
 .vert-span-plus{
   height: 6rem;
   margin-top: 1rem;
+  background-color: rgb(0, 97, 161);
 }
 .vert-span-equal{
   margin-top: 3.6rem;
   height: 6rem;
+  background-color: rgb(33, 166, 255);
+  color:rgb(170, 235, 255);
+}
+.symbol-btn {
+  background-color: rgb(0, 97, 161);
 }
 .hori-span{
   grid-column: span 2;
@@ -56,4 +62,17 @@
   background-color: gray;
   font-weight: 200;
   text-align: left;
+}
+.backspace-btn{
+  background-color: gray;
+  position: relative;
+}
+.backspace-btn img{
+  display: block;
+  position: absolute;
+  top:17px ;
+  left: 14px;
+  max-width: 50%;
+  max-height: 50%;
+
 }
