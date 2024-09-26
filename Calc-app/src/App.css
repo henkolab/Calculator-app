@@ -1,0 +1,59 @@
+.phone-layout{
+  position: relative;
+  left: 700px;
+  background-color: rgba(0, 0, 0, 0.94);
+  background-image: radial-gradient(at top right, rgb(0, 139, 245) 1%,rgba(0, 0, 0, 0) 15%);
+  padding-top: 6rem;
+  padding-left:30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  border-radius: 2.5rem;
+
+  
+}
+.results-view{
+  grid-column: 1 / -1;
+  display:block;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  flex-direction: column;
+  text-align: right;
+  color: white;
+}
+.first-row-results{
+  color: grey;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.calculator-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 5rem);
+  grid-template-rows: repeat(6, 5rem);
+  
+}
+.top-row-btn{
+  font-size: 1.4em;
+  height: 1.9em;
+  position: relative;
+  top: 25px;
+  
+
+  
+}
+.vert-span-plus{
+  height: 6rem;
+  margin-top: 1rem;
+}
+.vert-span-equal{
+  margin-top: 3.6rem;
+  height: 6rem;
+}
+.hori-span{
+  grid-column: span 2;
+}
+.grey-btn{
+  color: white;
+  background-color: gray;
+  font-weight: 200;
+  text-align: left;
+}
